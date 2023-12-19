@@ -1,17 +1,17 @@
 const express = require('express')
 const app = express()
-app.listen(3000, () => {
-    console.log('http://localhost:3000/')
-})
+// app.listen(3000, () => {
+//     console.log('http://localhost:3000/')
+// })
 
 //TEST DE MODIFICATION
 
 const mysql = require('mysql2');
 const connection = mysql.createConnection({
-	host:'localhost',
-	user:'root',
-	password:'',
-	database:'prx'
+	host:'https://databases.000webhost.com/index.php',
+	user:'id21691480_phonerelax',
+	password:'12ff663S!',
+	database:'id21691480_prx'
 });
 
 
