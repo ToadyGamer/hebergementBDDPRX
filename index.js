@@ -4,6 +4,8 @@ app.listen(3000, () => {
     console.log('http://localhost:3000/')
 })
 
+//TEST DE MODIFICATION
+
 const mysql = require('mysql2');
 const connection = mysql.createConnection({
 	host:'localhost',
